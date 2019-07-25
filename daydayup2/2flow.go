@@ -7,11 +7,11 @@ func main() {
 	//1.
 	a1 := 700
 	var b1 int
-	fmt.Printf("请用户输入分数")
-	fmt.Scanf("%d", &b1)
-	if b1 >= a1 {
-		fmt.Println("恭喜你1")
-	}
+	//fmt.Printf("请用户输入分数")
+	//fmt.Scanf("%d", &b1)
+	//if b1 >= a1 {
+	//	fmt.Println("恭喜你1")
+	//}
 	if b1 >= a1 {
 		fmt.Println("恭喜你2")
 	}
@@ -101,4 +101,72 @@ func main() {
 		if相对switch执行效率低，分支少用if
 		switch不建议使用嵌套
 	 */
+
+	/* 循环
+		for
+	 */
+	//1.语法
+	//for 初始化条件;判断条件 ;条件变化  {
+	//
+	//}
+	//计算1+2+3+。。。+10的和
+	sum := 0
+	for i:=1;i<=10;i++{
+		sum+=i
+	}
+	fmt.Println(sum)
+	str := "abc"
+	for i:=1 ; i<len(str);i++{
+		fmt.Println(str[i])
+	}
+	//迭代打印每个元素 默认返回两个值 第一个元素位置 一个元素本身
+	for i,data :=range str  {
+		fmt.Println(i,data)
+	}
+	for i,_ := range str{
+		fmt.Println(i)
+	}
+	for _,data := range str{
+		fmt.Println(data)
+	}
+	for i := range str{
+		fmt.Println(i)
+	}
+	//for 嵌套
+	count := 0
+	for i :=0;i<5 ;i++  {
+		for j :=0;j<5 ;j++  {
+			fmt.Println(i,j)
+			count +=1
+		}
+	}
+	fmt.Println(count)
+
+	//百钱百鸡
+	// 5cock 3hen 1/3chicken
+	//方法一：
+	count1 := 0
+	for cock:=0;cock<=20;cock++{
+		for hen:=0;hen<=33 ;hen++  {
+			for chicken:=0;chicken<=100 ;chicken+=3  {
+				count1+=1
+				if 5*cock+3*hen+chicken/3 == 100 &&cock+hen+chicken==100 {
+					fmt.Println(cock,hen,chicken)
+				}
+			}
+		}
+	}
+	//方法二：
+	count2 := 0
+	for cock:=0;cock<=20;cock++{
+		for hen:=0;hen<=33 ;hen++  {
+			count2 +=1
+			chicken := 100-cock-hen
+			if chicken % 3 ==0 && 5*cock+3*hen+chicken/3 == 100{
+				fmt.Println(cock,hen,chicken)
+			}
+		}
+	}
+	fmt.Println(count1,count2)
+
 }
