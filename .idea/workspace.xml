@@ -2,30 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7daf4075-e6c4-4a42-a4b2-0da6db66ffbf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/daydayup1/README.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/daydayup4/2func.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/daydayup5/1func.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/daydayup5/2func_scope.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/daydayup5/3lambda.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/daydayup5/4recursive.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/daydayup6/1.multipleFile.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/daydayup6/2.array.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/daydayup6/userInfo/userCreate.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/daydayup1/1hello.go" beforeDir="false" afterPath="$PROJECT_DIR$/daydayup2/1hello.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/daydayup1/2hello.go" beforeDir="false" afterPath="$PROJECT_DIR$/daydayup2/2hello.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/daydayup1/3var.go" beforeDir="false" afterPath="$PROJECT_DIR$/daydayup2/3var.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/daydayup1/4base_data_type.go" beforeDir="false" afterPath="$PROJECT_DIR$/daydayup2/4base_data_type.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/daydayup2/1opera.go" beforeDir="false" afterPath="$PROJECT_DIR$/daydayup3/1opera.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/daydayup2/2flow.go" beforeDir="false" afterPath="$PROJECT_DIR$/daydayup3/2flow.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/daydayup3/1jump.go" beforeDir="false" afterPath="$PROJECT_DIR$/daydayup4/1jump.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/daydayup3/2func.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/daydayup3/4func.go" beforeDir="false" afterPath="$PROJECT_DIR$/daydayup4/4func.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/daydayup3/5memory.go" beforeDir="false" afterPath="$PROJECT_DIR$/daydayup4/5memory.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/daydayup4/1func.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/hello/hello.go" beforeDir="false" afterPath="$PROJECT_DIR$/daydayup1/hello/hello.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/hello/hello2.go" beforeDir="false" afterPath="$PROJECT_DIR$/daydayup1/hello/hello2.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/stringutil/reverse.go" beforeDir="false" afterPath="$PROJECT_DIR$/daydayup1/stringutil/reverse.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/stringutil/reverse_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/daydayup1/stringutil/reverse_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/daydayup6/2.array.go" beforeDir="false" afterPath="$PROJECT_DIR$/daydayup6/2.array.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,8 +28,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/daydayup6/2.array.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="214">
-              <caret line="96" column="9" lean-forward="true" selection-start-line="96" selection-start-column="9" selection-end-line="96" selection-end-column="9" />
+            <state relative-caret-position="252">
+              <caret line="102" column="9" lean-forward="true" selection-start-line="102" selection-start-column="9" selection-end-line="102" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -89,8 +66,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="39" />
-    <option name="y" value="20" />
+    <option name="x" value="478" />
+    <option name="y" value="288" />
     <option name="width" value="1096" />
     <option name="height" value="689" />
   </component>
@@ -131,6 +108,7 @@
     <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/daydayup6" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -191,14 +169,15 @@
     </recent_temporary>
   </component>
   <component name="ToolWindowManager">
-    <frame x="36" y="19" width="992" height="624" extended-state="0" />
+    <frame x="433" y="261" width="992" height="624" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.3429487" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32786885" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32258064" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32258064" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -357,8 +336,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/daydayup6/2.array.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="96" column="9" lean-forward="true" selection-start-line="96" selection-start-column="9" selection-end-line="96" selection-end-column="9" />
+        <state relative-caret-position="252">
+          <caret line="102" column="9" lean-forward="true" selection-start-line="102" selection-start-column="9" selection-end-line="102" selection-end-column="9" />
         </state>
       </provider>
     </entry>

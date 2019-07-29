@@ -91,9 +91,16 @@ func main()  {
 
 	//6. 数组冒泡排序 从小到大
 	var ars[10]int = [10]int{3,1,2,7,5,6,4,10,9,8}
-	for i :=0 ;i<len(ars);i++{
-		for j:=0;j<len(ars)-1;j++{
-			if ars[i]>ars[j]
+	//{1,2,3,5,6,4,7，9，8，10} 没执行一趟确定一个数据的位置  执行次数9次 i=len(ars)-1次
+	//10个元素走9趟就能确定了
+	//i表示执行多少周 i= len(ars)-1
+	//j 交换了多少次  第一趟9次 第二趟8次  。。。 第九趟1次
+	for i :=0 ;i<len(ars)-1;i++{//比较了多少次
+		for j:=1;j<len(ars)-i-1;j++{ //每趟对比的次数
+			if ars[j]>ars[j+1]{
+				ars[j],ars[j+1] = ars[j+1],ars[j] //大的往后移
+			}
 		}
 	}
+	fmt.Println(ars)
 }
