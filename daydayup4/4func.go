@@ -20,18 +20,27 @@ func func2(args ...int)  {
 func main() {
 	//2.不定长参数的调用
 	func1(1,2,3,4,5,6)
-	//3. 函数返回值
+	//3.函数的嵌套使用 在一个函数中调用另一个函数
+	//4.函数嵌套的执行过程
+	t1(10,20)
+	//5. 函数返回值
 	var result = func3()
 	var result2  =  func4(1,5)
 	fmt.Println(result,result2)
-	//4. 函数返回多个值
+	//6. 函数返回多个值
 	a,b,c := func5(1,5)
 	fmt.Println(a,b,c)
-	//5.匿名变量  丢弃接收的数据
+	//6.匿名变量  丢弃接收的数据
 	_,_,sum := func5(1,5)
 	fmt.Println(sum)
 }
-
+func t1(x1,x2 int){
+	t2(x1,x2)
+}
+func t2(x1,x2 int)  {
+	sum := x1+x2
+	fmt.Println(sum)
+}
 func func3() int {  //返回整型数据  通过return返回数据
 	var a int = 5
 	var b int =1
