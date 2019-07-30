@@ -96,7 +96,7 @@ func main()  {
 	//i表示执行多少周 i= len(ars)-1
 	//j 交换了多少次  第一趟9次 第二趟8次  。。。 第九趟1次
 	for i :=0 ;i<len(ars)-1;i++{//比较了多少次
-		for j:=1;j<len(ars)-i-1;j++{ //每趟对比的次数
+		for j:=0;j<len(ars)-i-1;j++{ //每趟对比的次数
 			if ars[j]>ars[j+1]{
 				ars[j],ars[j+1] = ars[j+1],ars[j] //大的往后移
 			}
