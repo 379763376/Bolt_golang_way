@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7daf4075-e6c4-4a42-a4b2-0da6db66ffbf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/daydayup6/2.array.go" beforeDir="false" afterPath="$PROJECT_DIR$/daydayup6/2.array.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daydayup6/4.study.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,11 +27,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/daydayup6/2.array.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="102" column="9" lean-forward="true" selection-start-line="102" selection-start-column="9" selection-end-line="102" selection-end-column="9" />
+            <state relative-caret-position="266">
+              <caret line="102" column="9" selection-start-line="102" selection-start-column="9" selection-end-line="102" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/daydayup6/4.study.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="142">
+              <caret line="75" column="19" lean-forward="true" selection-start-line="75" selection-start-column="19" selection-end-line="75" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -63,13 +74,15 @@
         <option value="$PROJECT_DIR$/daydayup6/1.multipleFile.go" />
         <option value="$PROJECT_DIR$/daydayup2/5.array.go" />
         <option value="$PROJECT_DIR$/daydayup6/2.array.go" />
+        <option value="$PROJECT_DIR$/daydayup6/userInfo/4.study.go" />
+        <option value="$PROJECT_DIR$/daydayup6/4.study.go" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="532" />
-    <option name="y" value="239" />
-    <option name="width" value="1097" />
+    <option name="x" value="27" />
+    <option name="y" value="170" />
+    <option name="width" value="1098" />
     <option name="height" value="689" />
   </component>
   <component name="ProjectView">
@@ -97,6 +110,12 @@
               <item name="Bolt_golang_way" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="D:\goWrk\src\Bolt_golang_way" type="442cc68d:ScopeViewTreeModel$RootNode" />
               <item name="daydayup6" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="Bolt_golang_way" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="D:\goWrk\src\Bolt_golang_way" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="daydayup6" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="userInfo" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
@@ -132,7 +151,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build 2.array.go">
+  <component name="RunManager" selected="Go Build.go build 4.study.go">
     <configuration name="go build 1.multipleFile.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Bolt_golang_way" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -160,13 +179,24 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
+    <configuration name="go build 4.study.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="Bolt_golang_way" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/daydayup6/4.study.go" />
+      <package value="Bolt_golang_way" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Go Build.go build 1.multipleFile.go" />
       <item itemvalue="Go Build.go build 1.multipleFile.go (1)" />
       <item itemvalue="Go Build.go build 2.array.go" />
+      <item itemvalue="Go Build.go build 4.study.go" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build 4.study.go" />
         <item itemvalue="Go Build.go build 2.array.go" />
         <item itemvalue="Go Build.go build 1.multipleFile.go (1)" />
         <item itemvalue="Go Build.go build 1.multipleFile.go" />
@@ -174,15 +204,15 @@
     </recent_temporary>
   </component>
   <component name="ToolWindowManager">
-    <frame x="433" y="261" width="992" height="624" extended-state="0" />
+    <frame x="25" y="154" width="994" height="624" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.3429487" />
+      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.3496802" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32786885" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32258064" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32258064" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -197,6 +227,9 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" />
     </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.gitignore">
@@ -341,8 +374,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/daydayup6/2.array.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="102" column="9" lean-forward="true" selection-start-line="102" selection-start-column="9" selection-end-line="102" selection-end-column="9" />
+        <state relative-caret-position="266">
+          <caret line="102" column="9" selection-start-line="102" selection-start-column="9" selection-end-line="102" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/daydayup6/4.study.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="75" column="19" lean-forward="true" selection-start-line="75" selection-start-column="19" selection-end-line="75" selection-end-column="19" />
         </state>
       </provider>
     </entry>
