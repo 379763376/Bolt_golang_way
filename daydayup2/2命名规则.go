@@ -9,5 +9,11 @@ func main() {
 	4.区分大小写的
 	5.见名知意
 	 */
+	//驼峰命名法
+	/*
+		1.小驼峰：userName
+		2.大驼峰：UserName
+		3.下划线连接：user_name
+	*/
 	fmt.Printf("Hello")
 }
