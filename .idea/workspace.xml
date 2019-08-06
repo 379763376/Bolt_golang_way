@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5e5ce99c-dacc-43db-97ee-4502a409cbbd" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/daydayup1(基础语法)/README.txt" beforeDir="false" afterPath="$PROJECT_DIR$/daydayup1/README.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/daydayup1(基础语法)/hello/hello.go" beforeDir="false" afterPath="$PROJECT_DIR$/daydayup1/hello/hello.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/daydayup1(基础语法)/hello/hello2.go" beforeDir="false" afterPath="$PROJECT_DIR$/daydayup1/hello/hello2.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/daydayup1(基础语法)/stringutil/reverse.go" beforeDir="false" afterPath="$PROJECT_DIR$/daydayup1/stringutil/reverse.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/daydayup1(基础语法)/stringutil/reverse_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/daydayup1/stringutil/reverse_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/daydayup2/1hello.go" beforeDir="false" afterPath="$PROJECT_DIR$/daydayup2(基础语法)/1hello.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/daydayup2/2命名规则.go" beforeDir="false" afterPath="$PROJECT_DIR$/daydayup2(基础语法)/2命名规则.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/daydayup2/3变量 自动推导 printf pintln 多重赋值 匿名变量 常量 多个变量或者常量的定义.go" beforeDir="false" afterPath="$PROJECT_DIR$/daydayup2(基础语法)/3变量 自动推导 printf pintln 多重赋值 匿名变量 常量 多个变量或者常量的定义.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/daydayup2/4biota枚举 boole类型 整型 浮点类型 字符类型 字符串类型 复数 格式化输出 输入 类型转换 类型别名.go" beforeDir="false" afterPath="$PROJECT_DIR$/daydayup2(基础语法)/4biota枚举 boole类型 整型 浮点类型 字符类型 字符串类型 复数 格式化输出 输入 类型转换 类型别名.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/daydayup3/1运算符.go" beforeDir="false" afterPath="$PROJECT_DIR$/daydayup3/5运算符.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/daydayup3/2if if_else if嵌套 switch for.go" beforeDir="false" afterPath="$PROJECT_DIR$/daydayup3/6if if_else if嵌套 switch for.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/daydayup4/1跳转.go" beforeDir="false" afterPath="$PROJECT_DIR$/daydayup4/7跳转.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/daydayup4/2函数定义和使用 普通函数 不定长参数.go" beforeDir="false" afterPath="$PROJECT_DIR$/daydayup4/8函数定义和使用 普通函数 不定长参数.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/daydayup4/3函数嵌套 函数返回值 函数类型 函数作用域..go" beforeDir="false" afterPath="$PROJECT_DIR$/daydayup4/9函数嵌套 函数返回值.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/daydayup4/5memory.go" beforeDir="false" afterPath="$PROJECT_DIR$/daydayup4/10memory.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/daydayup5/1函数类型.go" beforeDir="false" afterPath="$PROJECT_DIR$/daydayup5/11函数类型.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/daydayup5/2函数作用域.go" beforeDir="false" afterPath="$PROJECT_DIR$/daydayup5/12函数作用域.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/daydayup5/3匿名函数与闭包.go" beforeDir="false" afterPath="$PROJECT_DIR$/daydayup5/13匿名函数与闭包.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/daydayup5/4递归（回调）.go" beforeDir="false" afterPath="$PROJECT_DIR$/daydayup5/14递归（回调）.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/daydayup6(复合类型)/1.multipleFile.go" beforeDir="false" afterPath="$PROJECT_DIR$/daydayup6(复合类型)/15同级别多文件 不同级别多文件.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/daydayup6(复合类型)/2数组 逆置 冒泡 随机数 数组作为函数 二维数组.go" beforeDir="false" afterPath="$PROJECT_DIR$/daydayup6(复合类型)/16数组 逆置 冒泡 随机数 数组作为函数 二维数组.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/daydayup6(复合类型)/3.切片定义和使用.go" beforeDir="false" afterPath="$PROJECT_DIR$/daydayup6(复合类型)/18切片定义和使用.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/daydayup6/3.random.go" beforeDir="false" afterPath="$PROJECT_DIR$/daydayup6(复合类型)/17随机数.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/daydayup7/1.切片地址和扩容 切片截取 切片拷贝 切片拍寻 切片作为函数参数.go" beforeDir="false" afterPath="$PROJECT_DIR$/daydayup7/19.切片地址和扩容 切片截取 切片拷贝 切片拍寻 切片作为函数参数.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/daydayup7/17结构体和map.go" beforeDir="false" afterPath="$PROJECT_DIR$/daydayup7/23结构体和map.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/daydayup7/18结构体作为函数参数.go" beforeDir="false" afterPath="$PROJECT_DIR$/daydayup7/24结构体作为函数参数.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/daydayup7/19指针定义和使用.go" beforeDir="false" afterPath="$PROJECT_DIR$/daydayup7/25指针定义和使用.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/daydayup7/2.map定义和使用 map的键值 map作为函数参数.go" beforeDir="false" afterPath="$PROJECT_DIR$/daydayup7/20.map定义和使用 map的键值 map作为函数参数.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/daydayup7/20指针作为函数参数.go" beforeDir="false" afterPath="$PROJECT_DIR$/daydayup7/26指针作为函数参数.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/daydayup7/21数组指针.go" beforeDir="false" afterPath="$PROJECT_DIR$/daydayup7/27数组指针.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/daydayup7/22指针数组.go" beforeDir="false" afterPath="$PROJECT_DIR$/daydayup7/28指针数组.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/daydayup7/23指针和切片.go" beforeDir="false" afterPath="$PROJECT_DIR$/daydayup7/29指针和切片.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/daydayup7/24结构体和指针.go" beforeDir="false" afterPath="$PROJECT_DIR$/daydayup7/30结构体和指针.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/daydayup7/25多级指针.go" beforeDir="false" afterPath="$PROJECT_DIR$/daydayup7/31多级指针.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/daydayup7/3结构体的定义和使用 结构体数组.go" beforeDir="false" afterPath="$PROJECT_DIR$/daydayup7/21结构体的定义和使用 结构体数组.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/daydayup7/4.结构体切片.go" beforeDir="false" afterPath="$PROJECT_DIR$/daydayup7/22.结构体切片.go" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/daydayup6(复合类型)/17随机数.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="236">
+              <caret line="36" column="34" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/daydayup5/13匿名函数与闭包.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-627" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/daydayup4/9函数嵌套 函数返回值.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-902" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/daydayup5/11函数类型.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="471" />
+    <option name="y" value="50" />
+    <option name="width" value="1346" />
+    <option name="height" value="688" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Bolt_golang_way" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Bolt_golang_way" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\goWrk\src\Bolt_golang_way\daydayup6(复合类型)" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="471" y="50" width="1346" height="688" extended-state="0" />
+    <layout>
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.2807154" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32786885" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32310468" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.33754513" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/daydayup6(复合类型)/17随机数.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="36" column="34" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/daydayup5/13匿名函数与闭包.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-627" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/daydayup4/9函数嵌套 函数返回值.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-902" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/daydayup5/11函数类型.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
