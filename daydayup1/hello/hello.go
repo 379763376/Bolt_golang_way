@@ -1,7 +1,7 @@
 package main
 
 import (
-	"Bolt_golang_way/daydayup1(基础语法)/stringutil"
+	"Bolt_golang_way/daydayup1/stringutil"
 	"fmt"
 	//"bufio"
 	//"io"

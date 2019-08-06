@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main2201() {
+func main() {
 
 	a := 10
 	b := 20
@@ -13,15 +13,15 @@ func main2201() {
 
 	fmt.Println(arr)
 
-	*arr[1] = 200
-	fmt.Println(b)
+	*arr[1] = 200 //先arr[1]是一个地址，*
+ 	fmt.Println(b)
 
 	for i := 0; i < len(arr); i++ {
 		fmt.Println(*arr[i])
 	}
 }
 
-func main() {
+func main01() {
 	a := [3]int{1, 2, 3}
 	b := [3]int{4, 5, 6}
 	c := [3]int{7, 8, 9}

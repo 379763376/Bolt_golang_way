@@ -10,13 +10,12 @@ func Swap(num1,num2 *int)  {
 func main() {
 	a := 10
 	b := 20
-	//值传递
 
 	//&变量  取地址操作 引用运算符
 	//*指针变量   取值操作  解引用运算符
-	Swap(&a,&b)
+	Swap(&a,&b) //地址传递
 	fmt.Println(a,b)
 
-	//地址传递
+
 
 }
