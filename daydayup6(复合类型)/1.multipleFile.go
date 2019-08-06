@@ -1,7 +1,7 @@
 package main
 
 import (
-	"Bolt_golang_way/daydayup6/userInfo"
+	"Bolt_golang_way/daydayup6(复合类型)/userInfo"
 	"fmt"
 )
 
