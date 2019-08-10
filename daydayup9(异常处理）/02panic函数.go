@@ -1,5 +1,8 @@
 package main
-
+/*
+发生致命错误 数组访问越界 空指针，不是报告普通错误
+不会直接调用 系统内置了
+ */
 import "fmt"
 
 func test02(i int)  {

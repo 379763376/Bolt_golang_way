@@ -44,6 +44,7 @@ func main() {
 	//stu.sayhi()
 	//将对象信息赋值给接口类型变量
 	h = &stu
+	fmt.Println(h)
 	h.sayhi()
 
 	tea := teacher11{"老王",28,"物理"}

@@ -1,5 +1,7 @@
 package main
-
+/*
+异常处理;
+ */
 import (
 	"errors"
 	"fmt"

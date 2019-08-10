@@ -4,7 +4,7 @@ import "fmt"
 
 //定义接口
 type Opter interface {
-	//方法声明
+	//方法声明  因为需要返回 所以返回值int
 	Result() int
 }
 

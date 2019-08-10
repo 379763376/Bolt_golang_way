@@ -1,24 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="410c8817-33b6-4c8b-a7ef-e672a0e9df1e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/daydayup10(文本文件操作)/01字符串处理函数.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/daydayup10(文本文件操作)/02字符串类型转换.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/daydayup10(文本文件操作)/03新建文件.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/daydayup10(文本文件操作)/04写入数据.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/daydayup10(文本文件操作)/05打开文件.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/daydayup10(文本文件操作)/06读取内容.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/daydayup10(文本文件操作)/a.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/daydayup10(文本文件操作)/b.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/daydayup10(文本文件操作)/文件操作案例.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/daydayup7/32指针内存存储模型.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/daydayup9(异常处理）/01error接口.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/daydayup9(异常处理）/02panic函数.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/daydayup9(异常处理）/03延迟调用defer.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/daydayup9(异常处理）/04recover.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/daydayup7/30结构体和指针.go" beforeDir="false" afterPath="$PROJECT_DIR$/daydayup7/30结构体和指针 结构体数组指针 map.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/daydayup8(面向对象)/01匿名字段.go" beforeDir="false" afterPath="$PROJECT_DIR$/daydayup8(面向对象)/01概述 匿名字段.go" afterDir="false" />
+    <list default="true" id="5e5ce99c-dacc-43db-97ee-4502a409cbbd" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/daydayup8(面向对象)/01概述 匿名字段.go" beforeDir="false" afterPath="$PROJECT_DIR$/daydayup8(面向对象)/01概述 结构体实现类 匿名字段实现继承  子类调用父类结构体成员 子类具有父类成员.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/daydayup8(面向对象)/02匿名字段同名成员.go" beforeDir="false" afterPath="$PROJECT_DIR$/daydayup8(面向对象)/02匿名字段同名成员 子类覆盖父类的成员.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/daydayup8(面向对象)/03指针类型匿名字段.go" beforeDir="false" afterPath="$PROJECT_DIR$/daydayup8(面向对象)/03指针类型匿名字段 同名字段内存存储.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/daydayup8(面向对象)/04多重继承.go" beforeDir="false" afterPath="$PROJECT_DIR$/daydayup8(面向对象)/04多重继承 初始化和继承顺序问题.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/daydayup8(面向对象)/05多重继承.go" beforeDir="false" afterPath="$PROJECT_DIR$/daydayup8(面向对象)/05多重继承 嵌套继承.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/daydayup8(面向对象)/06创建对象方法和使用.go" beforeDir="false" afterPath="$PROJECT_DIR$/daydayup8(面向对象)/06创建对象方法和使用.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/daydayup8(面向对象)/07方法的内存模型.go" beforeDir="false" afterPath="$PROJECT_DIR$/daydayup8(面向对象)/07方法的内存模型 方法调用接受指针.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/daydayup8(面向对象)/08方法继承.go" beforeDir="false" afterPath="$PROJECT_DIR$/daydayup8(面向对象)/08方法继承 子类调用父类方法.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/daydayup8(面向对象)/09方法重写.go" beforeDir="false" afterPath="$PROJECT_DIR$/daydayup8(面向对象)/09方法重写 子类和父类方法重名.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/daydayup8(面向对象)/10方法值和方法表达式.go" beforeDir="false" afterPath="$PROJECT_DIR$/daydayup8(面向对象)/10方法值和方法表达式.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/daydayup8(面向对象)/11接口定义和使用.go" beforeDir="false" afterPath="$PROJECT_DIR$/daydayup8(面向对象)/11接口定义和使用.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/daydayup8(面向对象)/12多态的实现.go" beforeDir="false" afterPath="$PROJECT_DIR$/daydayup8(面向对象)/12多态的实现  接口的作用.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/daydayup8(面向对象)/15类型断言.go" beforeDir="false" afterPath="$PROJECT_DIR$/daydayup8(面向对象)/15空接口变量实现类型断言.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/daydayup8(面向对象)/面向对象计算器实现.go" beforeDir="false" afterPath="$PROJECT_DIR$/daydayup8(面向对象)/11-0 接口实现 ；12-0 多态实现 面向对象计算器实现.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/daydayup9(异常处理）/01error接口.go" beforeDir="false" afterPath="$PROJECT_DIR$/daydayup9(异常处理）/01error接口.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/daydayup9(异常处理）/02panic函数.go" beforeDir="false" afterPath="$PROJECT_DIR$/daydayup9(异常处理）/02panic函数.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/daydayup9(异常处理）/03延迟调用defer.go" beforeDir="false" afterPath="$PROJECT_DIR$/daydayup9(异常处理）/03延迟调用defer.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/daydayup9(异常处理）/04recover.go" beforeDir="false" afterPath="$PROJECT_DIR$/daydayup9(异常处理）/04recover 拦截panic.go" afterDir="false" />
     </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,78 +31,78 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/daydayup7/28指针数组 数组元素为数组指针.go">
+        <entry file="file://$PROJECT_DIR$/daydayup9(异常处理）/01error接口.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="42" column="35" selection-start-line="42" selection-start-column="35" selection-end-line="42" selection-end-column="35" />
+            <state relative-caret-position="57">
+              <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/daydayup9(异常处理）/02panic函数.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-190">
+              <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/daydayup9(异常处理）/03延迟调用defer.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="24" column="62" selection-start-line="24" selection-start-column="62" selection-end-line="24" selection-end-column="62" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/daydayup8(面向对象)/01概述 匿名字段.go">
+        <entry file="file://$PROJECT_DIR$/daydayup9(异常处理）/04recover 拦截panic.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="190">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/daydayup7/29指针和切片 切片指针.go">
+        <entry file="file://$PROJECT_DIR$/daydayup10(文本文件操作)/01字符串处理函数.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="522">
-              <caret line="29" column="44" selection-start-line="29" selection-start-column="44" selection-end-line="29" selection-end-column="44" />
-            </state>
+            <state relative-caret-position="-1691" />
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/daydayup7/31多级指针.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/daydayup7/32指针内存存储模型.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/daydayup9(异常处理）/01error接口.go">
+        <entry file="file://$PROJECT_DIR$/daydayup10(文本文件操作)/02字符串类型转换.go">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/daydayup10(文本文件操作)/a.txt">
+        <entry file="file://$PROJECT_DIR$/daydayup10(文本文件操作)/03新建文件.go">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/daydayup7/30结构体和指针 结构体数组指针 map.go">
+        <entry file="file://$PROJECT_DIR$/daydayup10(文本文件操作)/04写入数据.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-128">
-              <caret line="68" selection-start-line="68" selection-end-line="68" />
+            <state relative-caret-position="-1539" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/daydayup10(文本文件操作)/05打开文件.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="18" column="19" lean-forward="true" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/daydayup7/22.结构体切片.go">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/daydayup7/21结构体的定义和使用 结构体数组.go">
+        <entry file="file://$PROJECT_DIR$/daydayup10(文本文件操作)/06读取内容.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1026" />
+            <state relative-caret-position="-57" />
           </provider>
         </entry>
       </file>
@@ -111,6 +115,7 @@
       </list>
     </option>
   </component>
+  <component name="GOROOT" path="C:\Go" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -119,15 +124,34 @@
       <list>
         <option value="$PROJECT_DIR$/daydayup7/31指针内存存储模型.go" />
         <option value="$PROJECT_DIR$/daydayup8(面向对象)/01概述 匿名字段.go" />
+        <option value="$PROJECT_DIR$/daydayup8(面向对象)/03指针类型匿名字段.go" />
+        <option value="$PROJECT_DIR$/daydayup8(面向对象)/04多重继承.go" />
+        <option value="$PROJECT_DIR$/daydayup8(面向对象)/06创建对象方法和使用.go" />
+        <option value="$PROJECT_DIR$/daydayup8(面向对象)/07方法的内存模型.go" />
+        <option value="$PROJECT_DIR$/daydayup8(面向对象)/07方法的内存模型 方法调用接受指针.go" />
+        <option value="$PROJECT_DIR$/daydayup8(面向对象)/10方法值和方法表达式.go" />
+        <option value="$PROJECT_DIR$/daydayup8(面向对象)/11接口定义和使用.go" />
+        <option value="$PROJECT_DIR$/daydayup8(面向对象)/11-0 12-0面向对象计算器实现.go" />
+        <option value="$PROJECT_DIR$/daydayup8(面向对象)/12多态的实现  接口的作用.go" />
+        <option value="$PROJECT_DIR$/daydayup8(面向对象)/15空接口变量实现类型断言.go" />
+        <option value="$PROJECT_DIR$/daydayup9(异常处理）/01error接口.go" />
+        <option value="$PROJECT_DIR$/daydayup9(异常处理）/02panic函数.go" />
+        <option value="$PROJECT_DIR$/daydayup9(异常处理）/03延迟调用defer.go" />
+        <option value="$PROJECT_DIR$/daydayup9(异常处理）/04recover 拦截panic.go" />
       </list>
     </option>
   </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="471" />
+    <option name="y" value="50" />
+    <option name="width" value="1346" />
+    <option name="height" value="688" />
+  </component>
   <component name="ProjectView">
-    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
       <pane id="Scope">
         <subPane subId="Scope 'Tests'; set:Tests; class com.intellij.psi.search.scope.TestsScope">
           <expand>
@@ -163,11 +187,56 @@
           <select />
         </subPane>
       </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Bolt_golang_way" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Bolt_golang_way" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Bolt_golang_way" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Bolt_golang_way" type="462c0819:PsiDirectoryNode" />
+              <item name="daydayup2(基础语法)" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Bolt_golang_way" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Bolt_golang_way" type="462c0819:PsiDirectoryNode" />
+              <item name="daydayup3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Bolt_golang_way" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Bolt_golang_way" type="462c0819:PsiDirectoryNode" />
+              <item name="daydayup7" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Bolt_golang_way" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Bolt_golang_way" type="462c0819:PsiDirectoryNode" />
+              <item name="daydayup8(面向对象)" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Bolt_golang_way" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Bolt_golang_way" type="462c0819:PsiDirectoryNode" />
+              <item name="daydayup9(异常处理）" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Bolt_golang_way" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Bolt_golang_way" type="462c0819:PsiDirectoryNode" />
+              <item name="daydayup10(文本文件操作)" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.gopath.indexing.explicitly.defined" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
@@ -188,24 +257,60 @@
       </list>
     </option>
   </component>
+  <component name="RunManager" selected="Go Build.go build 14空接口.go">
+    <configuration name="go build 10方法值和方法表达式.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="Bolt_golang_way" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/daydayup8(面向对象)/10方法值和方法表达式.go" />
+      <package value="Bolt_golang_way" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build 11接口定义和使用.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="Bolt_golang_way" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/daydayup8(面向对象)/11接口定义和使用.go" />
+      <package value="Bolt_golang_way" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build 14空接口.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="Bolt_golang_way" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/daydayup8(面向对象)/14空接口.go" />
+      <package value="Bolt_golang_way" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build 14空接口.go" />
+        <item itemvalue="Go Build.go build 11接口定义和使用.go" />
+        <item itemvalue="Go Build.go build 10方法值和方法表达式.go" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1753" height="954" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.17913966" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.28668684" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32786885" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3220339" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.53770494" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39951575" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.2881356" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.3295082" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3065574" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -213,20 +318,29 @@
       <window_info anchor="right" id="Database" order="3" />
     </layout>
   </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/daydayup7/29指针和切片 切片指针.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="29" column="44" selection-start-line="29" selection-start-column="44" selection-end-line="29" selection-end-column="44" />
+        <state relative-caret-position="171">
+          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/daydayup7/22.结构体切片.go">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="1" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/daydayup7/21结构体的定义和使用 结构体数组.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1026" />
+        <state relative-caret-position="874">
+          <caret line="46" column="46" selection-start-line="46" selection-start-column="37" selection-end-line="46" selection-end-column="46" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/daydayup7/30结构体和指针 结构体数组指针 map.go">
@@ -236,13 +350,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/daydayup9(异常处理）/01error接口.go">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/daydayup7/27数组指针 指针操作数组 数组地址作为参数传递.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="17" />
+        <state relative-caret-position="380">
+          <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -250,14 +361,14 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/daydayup7/26指针作为函数参数.go">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/daydayup7/31多级指针.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="1" />
+        <state relative-caret-position="323">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/daydayup7/31多级指针.go">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/daydayup7/25指针定义和使用 默认值 空指针 野指针 空间分配 GC垃圾回收 自动推导类型.go">
       <provider selected="true" editor-type-id="text-editor">
@@ -273,10 +384,178 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/daydayup8(面向对象)/01概述 匿名字段.go">
+    <entry file="file://$PROJECT_DIR$/daydayup2(基础语法)/4biota枚举 boole类型 整型 浮点类型 字符类型 字符串类型 复数 格式化输出 输入 类型转换 类型别名.go">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/daydayup7/23结构体和map.go">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/daydayup8(面向对象)/01概述 结构体实现类 匿名字段实现继承  子类调用父类结构体成员 子类具有父类成员.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="-770">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/daydayup8(面向对象)/02匿名字段同名成员 子类覆盖父类的成员.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/daydayup8(面向对象)/03指针类型匿名字段 同名字段内存存储.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" column="55" selection-start-line="24" selection-start-column="55" selection-end-line="24" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/daydayup8(面向对象)/04多重继承 初始化和继承顺序问题.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-380">
+          <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/daydayup8(面向对象)/05多重继承 嵌套继承.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="33" column="22" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/daydayup8(面向对象)/06创建对象方法和使用.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-67">
+          <caret line="29" column="11" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/daydayup8(面向对象)/07方法的内存模型 方法调用接受指针.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/daydayup8(面向对象)/08方法继承 子类调用父类方法.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="30" column="10" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/daydayup8(面向对象)/09方法重写 子类和父类方法重名.go">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/daydayup8(面向对象)/10方法值和方法表达式.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="30" column="31" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/daydayup8(面向对象)/12多态的实现  接口的作用.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="779">
+          <caret line="41" column="30" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/daydayup8(面向对象)/11-0 接口实现 ；12-0 多态实现 面向对象计算器实现.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/daydayup8(面向对象)/13接口继承与转换.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1121">
+          <caret line="59" column="16" selection-start-line="59" selection-start-column="10" selection-end-line="59" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/daydayup8(面向对象)/14空接口.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="38" column="26" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/daydayup3/6if if_else if嵌套 switch for.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-171" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/daydayup8(面向对象)/15空接口变量实现类型断言.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="893">
+          <caret line="49" column="28" selection-start-line="49" selection-start-column="28" selection-end-line="49" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/daydayup8(面向对象)/11接口定义和使用.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="779">
+          <caret line="44" column="20" selection-start-line="44" selection-start-column="6" selection-end-line="44" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/daydayup9(异常处理）/01error接口.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/daydayup9(异常处理）/02panic函数.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-190">
+          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/daydayup9(异常处理）/03延迟调用defer.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="24" column="62" selection-start-line="24" selection-start-column="62" selection-end-line="24" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/daydayup10(文本文件操作)/01字符串处理函数.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1691" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/daydayup10(文本文件操作)/02字符串类型转换.go">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/daydayup10(文本文件操作)/03新建文件.go">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/daydayup10(文本文件操作)/04写入数据.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1539" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/daydayup10(文本文件操作)/05打开文件.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="18" column="19" lean-forward="true" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/daydayup10(文本文件操作)/06读取内容.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-57" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/daydayup9(异常处理）/04recover 拦截panic.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
