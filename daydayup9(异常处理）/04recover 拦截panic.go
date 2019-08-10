@@ -1,5 +1,7 @@
 package main
-
+/*
+从panic恢复 获得程序的控制权
+ */
 import "fmt"
 
 func testA()  {
@@ -14,11 +16,11 @@ func testB(x int)  {
 	defer func() {
 		//防止程序崩溃
 		//recover()
-		fmt.Println(recover())
+		//fmt.Println(recover())
 
-		//if err:=recover();err!=nil {
-		//	fmt.Println(err)
-		//}
+		if err:=recover();err!=nil {
+			fmt.Println(err)
+		}
 	}()  //匿名函数
 
 	var a [3]int

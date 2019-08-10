@@ -22,7 +22,7 @@ func main() {
 
 	a := 10
 	b := 20
-	defer func(a,b int) {
+	defer func(a,b int) {  //传参后值发生改变。。。虽然程序没有立即执行，但是已经完成了值的传递 a=10,b=20
 		fmt.Println("匿名函数a", a)
 		fmt.Println("匿名函数b", b)
 	}(a,b)

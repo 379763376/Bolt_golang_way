@@ -39,7 +39,7 @@ func sayhello(h Humaner1)  {
 func main() {
 
 	stu := student12{"小明",18,98}
-	//调用多态函数
+	//调用多态函数  不是将对象信息赋值给接口类型变量
 	sayhello(&stu)
 
 	tea := teacher12{"老王",28,"Go"}

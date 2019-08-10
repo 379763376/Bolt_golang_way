@@ -46,6 +46,7 @@ func main()  {
 	var i []interface{}
 	i = append(i, 10,3.14,"aaa",demo15)
 	for _,v:=range i{
+		//value, ok := element.(T)
 		switch value:= v.(type) {
 		case int:
 			fmt.Println("整型数据",value)
