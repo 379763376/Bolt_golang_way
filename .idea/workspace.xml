@@ -1,24 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="410c8817-33b6-4c8b-a7ef-e672a0e9df1e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/daydayup10(文本文件操作)/01字符串处理函数.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/daydayup10(文本文件操作)/02字符串类型转换.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/daydayup10(文本文件操作)/03新建文件.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/daydayup10(文本文件操作)/04写入数据.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/daydayup10(文本文件操作)/05打开文件.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/daydayup10(文本文件操作)/06读取内容.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/daydayup10(文本文件操作)/a.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/daydayup10(文本文件操作)/b.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/daydayup10(文本文件操作)/文件操作案例.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/daydayup7/32指针内存存储模型.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/daydayup9(异常处理）/01error接口.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/daydayup9(异常处理）/02panic函数.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/daydayup9(异常处理）/03延迟调用defer.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/daydayup9(异常处理）/04recover.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/daydayup7/30结构体和指针.go" beforeDir="false" afterPath="$PROJECT_DIR$/daydayup7/30结构体和指针 结构体数组指针 map.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/daydayup8(面向对象)/01匿名字段.go" beforeDir="false" afterPath="$PROJECT_DIR$/daydayup8(面向对象)/01概述 匿名字段.go" afterDir="false" />
-    </list>
+    <list default="true" id="410c8817-33b6-4c8b-a7ef-e672a0e9df1e" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,21 +10,17 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/daydayup7/28指针数组 数组元素为数组指针.go">
+        <entry file="file://$PROJECT_DIR$/daydayup8(面向对象)/01概述 匿名字段.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="42" column="35" selection-start-line="42" selection-start-column="35" selection-end-line="42" selection-end-column="35" />
+            <state relative-caret-position="502">
+              <caret line="64" column="1" lean-forward="true" selection-start-line="64" selection-start-column="1" selection-end-line="64" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/daydayup8(面向对象)/01概述 匿名字段.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/daydayup8(面向对象)/02匿名字段同名成员.go">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -159,6 +138,11 @@
               <item name="D:\goWrk\src\Bolt_golang_way" type="442cc68d:ScopeViewTreeModel$RootNode" />
               <item name="daydayup9(异常处理）" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
+            <path>
+              <item name="Bolt_golang_way" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="D:\goWrk\src\Bolt_golang_way" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="daydayup10(文本文件操作)" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -190,7 +174,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1753" height="954" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -275,10 +258,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/daydayup8(面向对象)/01概述 匿名字段.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="502">
+          <caret line="64" column="1" lean-forward="true" selection-start-line="64" selection-start-column="1" selection-end-line="64" selection-end-column="1" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/daydayup7/28指针数组 数组元素为数组指针.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="42" column="35" selection-start-line="42" selection-start-column="35" selection-end-line="42" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/daydayup8(面向对象)/02匿名字段同名成员.go">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
