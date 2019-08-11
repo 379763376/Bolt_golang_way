@@ -1,5 +1,7 @@
 package main
-
+/*
+strings包
+ */
 import (
 	"fmt"
 	"strings"

@@ -1,5 +1,8 @@
 package main
-
+/*
+go 不允许隐式转换 都需要声明
+strconw字符串与其他类型转换的包
+ */
 import (
 	"fmt"
 	"strconv"
@@ -51,13 +54,15 @@ func main0204()  {
 	//	fmt.Println(b)
 	//	fmt.Printf("%T\n",b)
 	//}
-
+	//字符串转换成16进制整型
 	//v,err := strconv.ParseInt("abc",16,64)
 	//fmt.Println(v,err)
 
 	//v,_ := strconv.ParseFloat("3.14159",64)
 	//fmt.Println(v)
 
+
+	//等价于ParseInt(s, 10, 0)
 	v,_:=strconv.Atoi("123")
 	fmt.Println(v)
 
