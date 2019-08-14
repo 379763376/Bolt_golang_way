@@ -21,7 +21,7 @@ type student05 struct {
 	score int
 }
 
-func main() {
+func main000() {
 	var stu student05
 	stu.name = "亚索"
 	stu.sex = "男"
@@ -33,4 +33,28 @@ func main() {
 
 	stu1 := student05{person05{humen{1001,"亚索"},30,"男"},-5}
 	fmt.Println(stu1)
+}
+type Reader interface {
+	Read(p[]byte)(n int,err error)
+}
+type Writer interface {
+	Write(p[] byte)(n int , err error)
+}
+type Closer interface {
+	Close() error
+}
+type ReaderWriter interface {
+	Reader
+	Writer
+}
+type ReadCloser interface {
+	Reader
+	Closer
+}
+type WriteCloser interface {
+	Writer
+	Closer
+}
+func main() {
+
 }
