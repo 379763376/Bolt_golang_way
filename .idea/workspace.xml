@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
+    <list default="true" id="410c8817-33b6-4c8b-a7ef-e672a0e9df1e" name="Default Changelist" comment="" />
+=======
     <list default="true" id="5e5ce99c-dacc-43db-97ee-4502a409cbbd" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/daydayup11/复合数据类型扩展.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/daydayup8(面向对象)/05多重继承 嵌套继承.go" beforeDir="false" afterPath="$PROJECT_DIR$/daydayup8(面向对象)/05多重继承 嵌套继承.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+>>>>>>> 855a90fbe4646d10e93f9a79015ad0c5f5ad947f
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +18,49 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+<<<<<<< HEAD
+=======
+      <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
+        <entry file="file://$PROJECT_DIR$/daydayup8(面向对象)/01概述 匿名字段.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="502">
+              <caret line="64" column="1" lean-forward="true" selection-start-line="64" selection-start-column="1" selection-end-line="64" selection-end-column="1" />
+=======
+        <entry file="file://$PROJECT_DIR$/daydayup9(异常处理）/01error接口.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+>>>>>>> 855a90fbe4646d10e93f9a79015ad0c5f5ad947f
+            </state>
+          </provider>
+        </entry>
+      </file>
+<<<<<<< HEAD
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/daydayup8(面向对象)/02匿名字段同名成员.go">
+          <provider selected="true" editor-type-id="text-editor" />
+=======
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/daydayup9(异常处理）/02panic函数.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-190">
+              <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+            </state>
+          </provider>
+>>>>>>> 855a90fbe4646d10e93f9a79015ad0c5f5ad947f
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/daydayup9(异常处理）/03延迟调用defer.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="24" column="62" selection-start-line="24" selection-start-column="62" selection-end-line="24" selection-end-column="62" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+>>>>>>> 12a3c0f9ce88c9d6b20bae0439d0e2df98be64e9
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/daydayup11/复合数据类型扩展.go">
           <provider selected="true" editor-type-id="text-editor">
@@ -121,6 +168,11 @@
               <item name="D:\goWrk\src\Bolt_golang_way" type="442cc68d:ScopeViewTreeModel$RootNode" />
               <item name="daydayup9(异常处理）" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
+            <path>
+              <item name="Bolt_golang_way" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="D:\goWrk\src\Bolt_golang_way" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="daydayup10(文本文件操作)" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -201,8 +253,16 @@
     </recent_temporary>
   </component>
   <component name="ToolWindowManager">
+<<<<<<< HEAD
     <frame x="703" y="15" width="958" height="721" extended-state="0" />
+=======
+<<<<<<< HEAD
+    <frame x="-7" y="-7" width="1753" height="954" extended-state="6" />
+=======
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+>>>>>>> 12a3c0f9ce88c9d6b20bae0439d0e2df98be64e9
     <editor active="true" />
+>>>>>>> 855a90fbe4646d10e93f9a79015ad0c5f5ad947f
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -451,6 +511,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/daydayup8(面向对象)/05多重继承 嵌套继承.go">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="332">
           <caret line="55" column="10" selection-start-line="55" selection-start-column="10" selection-end-line="55" selection-end-column="10" />
         </state>
@@ -470,8 +531,27 @@
           <folding>
             <element signature="e#14#48#0" expanded="true" />
           </folding>
+=======
+<<<<<<< HEAD
+        <state relative-caret-position="502">
+          <caret line="64" column="1" lean-forward="true" selection-start-line="64" selection-start-column="1" selection-end-line="64" selection-end-column="1" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/daydayup7/28指针数组 数组元素为数组指针.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="42" column="35" selection-start-line="42" selection-start-column="35" selection-end-line="42" selection-end-column="35" />
+=======
+        <state relative-caret-position="190">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+>>>>>>> 855a90fbe4646d10e93f9a79015ad0c5f5ad947f
+>>>>>>> 12a3c0f9ce88c9d6b20bae0439d0e2df98be64e9
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/daydayup8(面向对象)/02匿名字段同名成员.go">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
