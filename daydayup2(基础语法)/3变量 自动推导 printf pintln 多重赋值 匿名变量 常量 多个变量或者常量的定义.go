@@ -8,6 +8,10 @@ package main
 
 import "fmt"
 
+var d =10
+var (dd =10
+aa = true
+)
 func main() {
 
 	//一 、变量的声明
