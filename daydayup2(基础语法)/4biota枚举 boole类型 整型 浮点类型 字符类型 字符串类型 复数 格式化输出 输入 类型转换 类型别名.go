@@ -1,3 +1,19 @@
+/*
+内建数据类型
+
+bool string
+
+(u)int (u)int8 （u）int16 (u)int32 (u)int64 uintptr
+加u无符号整数 不加u有符号整数
+不规定长度的根据系统来32 64
+uintptr指针
+
+byte rune
+因为char只有一字节，rune是32位 是字符型
+
+float32 float64 complex64 complex128
+
+ */
 package main
 
 import (
@@ -46,6 +62,14 @@ func main() {
 	fmt.Println(i)
 	fmt.Println(j1,j2,j3)
 	fmt.Println(k)
+	const (
+		b = 1 << (10*iota)
+		kb
+		mb
+		gb
+		tb
+		pb
+	)
 
 	const aa,bb  = 3,4
 	var c2 int
