@@ -1,6 +1,14 @@
 package main
 
-import "fmt"
+import (
+	"bufio"
+	"fmt"
+	"io"
+	"io/ioutil"
+	"os"
+	"strconv"
+	"strings"
+)
 
 func main() {
 	//一 If选择结构
@@ -45,7 +53,12 @@ func main() {
 	}
 	*/
 	//6，比较的时候不能  x<y<z    z<y结果未boole <z的时候就会报错
-
+	const filename = "abc.txt"
+	if contents,err := ioutil.ReadFile(filename);err != nil{
+		fmt.Println(err)
+	}else {
+		fmt.Printf("%s\n",contents)
+	}
 
 	//二 switch
 	/*  1.支持多个条件的匹配
@@ -169,4 +182,64 @@ func main() {
 	}
 	fmt.Println(count1,count2)
 
+}
+//for
+// 整数转二进制
+// 省略初始条件
+//省略所有的死循环
+
+func convertToBin(n int) string {
+	result := ""
+	for ; n > 0; n /= 2 {
+		lsb := n % 2
+		result = strconv.Itoa(lsb) + result
+	}
+	return result
+}
+
+func printFile(filename string) {
+	file, err := os.Open(filename)
+	if err != nil {
+		panic(err)
+	}
+
+	printFileContents(file)
+}
+
+func printFileContents(reader io.Reader) {
+	scanner := bufio.NewScanner(reader)
+
+	for scanner.Scan() {
+		fmt.Println(scanner.Text())
+	}
+}
+
+func forever() {
+	for {
+		fmt.Println("abc")
+	}
+}
+
+func main01() {
+	fmt.Println("convertToBin results:")
+	fmt.Println(
+		convertToBin(5),  // 101
+		convertToBin(13), // 1101
+		convertToBin(72387885),
+		convertToBin(0),
+	)
+
+	fmt.Println("abc.txt contents:")
+	printFile("basic/branch/abc.txt")
+
+	fmt.Println("printing a string:")
+	s := `abc"d"
+	kkkk
+	123
+
+	p`
+	printFileContents(strings.NewReader(s))
+
+	// Uncomment to see it runs forever
+	// forever()
 }

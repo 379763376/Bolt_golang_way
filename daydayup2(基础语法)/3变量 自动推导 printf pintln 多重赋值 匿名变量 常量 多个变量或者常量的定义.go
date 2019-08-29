@@ -1,12 +1,19 @@
 /*
-变量的使用
+变量的定义
 cheat engine查看内存中的变量
 变量是内存中的
 内存地址的编号是16进制
+可在函数内 或者直接放在包内，是一个包内变量，而非全局变量
  */
 package main
 
 import "fmt"
+//函数外部定义变量,需要关键字var
+var (
+	aa = 3
+	bb = 4
+)
+var a,b,c bool
 
 func main() {
 
@@ -19,7 +26,9 @@ func main() {
 	fmt.Println(a)
 	var b,c int
 	b,c = 20,30
+	var s string
 	println(b,c)
+	fmt.Printf("%q\n", s) //会把quote打印出来
 
 	//二 、变量的初始化  声明变量的时候赋值
 	var d int =10  //初始化 一步到位
@@ -42,12 +51,14 @@ func main() {
 	//2. 常用的自动推到
 	//自动推倒  ：= 左边变量名没用过  只能用于第一次初始化
 	b1 := 10
+	var cc,dd = 1,"ddddd" //这种定义不是一种数据类型也可以写在一行自动推导
+	fmt.Println(cc,dd)
 	fmt.Println(b1)
 	b1 = 20
 	c1 := 3.14 //float64  不会是32
 	fmt.Printf("%T\n",c1)
-	x,y,z := 10,20,3.33
-	fmt.Println(x,y,z)
+	x,y,z,ll := 10,20,3.33,"aaa"
+	fmt.Println(x,y,z,ll)
 	fmt.Printf("%T\n",z)
 	fmt.Printf("%T\n",y)
 	//其他

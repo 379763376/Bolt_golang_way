@@ -2,6 +2,8 @@ package main
 
 import (
 	"fmt"
+	"math"
+	"math/cmplx"
 	"unsafe"
 )
 
@@ -22,6 +24,7 @@ func main() {
 	//4. 可以只写一个iota  在一个括号里
 	const (
 		a1 = iota
+		_
 		b1
 		c1
 	)
@@ -32,9 +35,22 @@ func main() {
 		j1,j2,j3 = iota,iota,iota  //1，1，1，
 		k=iota //2
 	)
+	const (
+		 b = 1 << (10*iota) //1  iota作为子增值的种子
+		 kb //1024
+		 mb //
+		 gb
+		 tb
+		 pb
+	)
 	fmt.Println(i)
 	fmt.Println(j1,j2,j3)
 	fmt.Println(k)
+
+	const aa,bb  = 3,4
+	var c2 int
+	c2 = int(math.Sqrt(aa*aa+bb*bb))
+	print(c2)
 
 	//二、基础数据类型 -- bool 布尔
 	//1.bool 布尔类型  占一个字节
@@ -133,7 +149,12 @@ func main() {
 	fmt.Println(v2)
 	//通过内建函数取实部和虚部
 	fmt.Println(real(v2),imag(v2))
+	v3 := 3 + 4i
+    fmt.Println(cmplx.Abs(v3))
 
+    fmt.Println(cmplx.Pow(math.E,1i*math.Pi)+1) //这种方式的是通用
+	fmt.Println(cmplx.Exp(1i*math.Pi)+1) //Exp底数就是1，只用写指数 输出的不是1，而是1.2246467991473532e-16j
+	fmt.Printf("%.3f",cmplx.Exp(1i*math.Pi)+1)//小数点后三位（0.000+0.000i)
 	//八 格式化输出
 	/*
 	比较重要的几个格式化输出
@@ -161,7 +182,8 @@ func main() {
 	//更简单的输入方式
 	fmt.Scan(&a)  //把用户输入的给到变量
 
-	//十、类型转换
+	//十、类型转换  (只有强制类型转换）
+
 	//1.三数求和
 	m1,m2,m3 := 54,30,20
 	sum := m1+m2+m3
