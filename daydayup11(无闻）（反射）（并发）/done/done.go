@@ -53,3 +53,6 @@ func chanDemo() {
 func main() {
 	chanDemo()
 }
+/*
+不要共享内存来通信 而是通过通信共享内存
+ */
