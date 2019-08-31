@@ -6,6 +6,8 @@ import (
 )
 
 func worker(id int, c chan int) {
+	//n,ok := <-c 可以用ok判断是否是close
+	//或者以下range
 	for n := range c {
 		fmt.Printf("Worker %d received %c\n",
 			id, n)
@@ -67,8 +69,17 @@ func main() {
 /*
 channel
 用作两个routine之间数据的交换
-chanDemo中定义一个channel然后定义一个routine接收数据，c<- 发数据到channel n := <-c 从channel取出数据
+
+var c chan int //定义一个channel 传入的数据是int，但是这个channel没给做出来是c == nil
+所以创建一个channel需要c:make(chan int)
+
+chanDemo中定义一个channel然后定义一个routine接收数据 不接收会datalock异常，c<- 发数据到channel n := <-c 从channel取出数据
 
 函数是一等公民 channel也是 可以作为函数 可以作为参数 可以作为返回值
 
+bufferChannel 添加缓冲区
+
+channel close 发送发close，外层函数推掉 channel也就关闭了
+
+channel的理论基础CSP communication sequential process
  */
