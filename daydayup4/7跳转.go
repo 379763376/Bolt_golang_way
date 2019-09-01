@@ -13,7 +13,7 @@ func main() {
 	//goto 跳转 goto关键字 End是标签 用户起的关键字
 	// goto使用场景是测试的时候可以跳过一些不用注释代码
 
-i :=0
+	i :=0
 	for{
 		i++
 		time.Sleep(time.Second)

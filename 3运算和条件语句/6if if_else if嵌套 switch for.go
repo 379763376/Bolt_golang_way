@@ -83,7 +83,6 @@ func main() {
 		fmt.Println("D")
 	default:
 		fmt.Println("A")
-
 	}
 	//2
 	switch s1:=90;s1 {  //初始化语句   ;    条件
@@ -214,11 +213,11 @@ func printFileContents(reader io.Reader) {
 	}
 }
 
-func forever() {
-	for {
-		fmt.Println("abc")
-	}
-}
+//func forever() {
+//	for {
+//		fmt.Println("abc")
+//	}
+//}
 
 func main01() {
 	fmt.Println("convertToBin results:")
