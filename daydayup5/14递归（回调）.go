@@ -7,8 +7,8 @@ func main() {
 	//递归函数有两个相同结构：1。跳出条件
 	test12(4)
 	//2. 递归实现1+2+3+。。。+100
-	sum := add100(100)
-	fmt.Println(sum)
+	//sum := add100(100)
+	//fmt.Println(sum)
 }
 func test12(a int)  {
 	if a == 10 {
@@ -24,4 +24,5 @@ func add100(num int) int  {
 		return 1
 	}
 	return num+add100(num - 1)
+	//100+（99+（98+。。。+（3+（2+（1
 }
