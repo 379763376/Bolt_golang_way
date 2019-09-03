@@ -13,6 +13,7 @@ func main() {
 
 	//创建随机数种子
 	rand.Seed(1)
+	fmt.Println(rand.Int())
 	fmt.Println(rand.Int()) //使用int生成较大的随机数，
 	fmt.Println(rand.Int())
 	// 再次运行发现没有变化==》随机数是根据随机数种子计算出来的一个数（计算方法一定 随机数就不会变化）
