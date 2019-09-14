@@ -75,12 +75,15 @@ func main() {
 }
 
 func inspect(r Retriver) {
-	fmt.Println("%T %v\n",r,r)
-	fmt.Println("Type switch:")
+	fmt.Println("Inspecting",r)
+	fmt.Printf(" > %T %v\n",r,r)
+	fmt.Print(" > Type switch:")
 	switch v := r.(type) {
 	case mock.Retriver1:
 		fmt.Println("contents:", v.Contents)
 	case *real.Retriver2:
 		fmt.Println("UserAgent", v.UserAgent)
 	}
+	fmt.Println()
+
 }

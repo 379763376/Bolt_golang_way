@@ -1,12 +1,12 @@
 package main
 
 import (
+	"Bolt_golang_way/uuuuu/functional/fib"
 	"bufio"
 	"fmt"
 	"io"
 	"strings"
 
-	"imooc.com/ccmouse/learngo/functional/fib"
 )
 
 type intGen func() int
