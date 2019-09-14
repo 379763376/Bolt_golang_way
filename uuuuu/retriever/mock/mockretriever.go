@@ -2,7 +2,7 @@ package mock
 
 import "fmt"
 
-type Retriever struct {
+type Retriever1 struct {
 	Contents string
 }
 
@@ -17,6 +17,6 @@ func (r *Retriever) Post(url string,
 	return "ok"
 }
 
-func (r *Retriever) Get(url string) string {
+func (r *Retriever1) Get(url string) string {
 	return r.Contents
 }

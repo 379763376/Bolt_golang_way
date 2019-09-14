@@ -1,12 +1,12 @@
 package main
 
 import (
+	"Bolt_golang_way/uuuuu/retriever/mock"
+	"Bolt_golang_way/uuuuu/retriever/real"
 	"fmt"
 
 	"time"
 
-	"imooc.com/ccmouse/learngo/retriever/mock"
-	"imooc.com/ccmouse/learngo/retriever/real"
 )
 
 type Retriever interface {
