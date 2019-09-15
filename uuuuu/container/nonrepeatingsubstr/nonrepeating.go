@@ -4,10 +4,9 @@ import (
 	"fmt"
 )
 
-func lengthOfNonRepeatingSubStr(s string) int {
+func lengthOfNonRepeatingSubStr(s string)  (maxStart,maxLength int) {
 	lastOccurred := make(map[rune]int)
 	start := 0
-	maxLength := 0
 
 	for i, ch := range []rune(s) {
 		if lastI, ok := lastOccurred[ch]; ok && lastI >= start {
@@ -19,7 +18,7 @@ func lengthOfNonRepeatingSubStr(s string) int {
 		lastOccurred[ch] = i
 	}
 
-	return maxLength
+	return  maxStart,maxLength
 }
 
 func main() {
