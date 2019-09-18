@@ -1,5 +1,10 @@
 package main
 
+import (
+	"Bolt_golang_way/uuuuu/tree"
+	"fmt"
+)
+
 //1.定义别名
 type Queue []int
 
@@ -25,13 +30,14 @@ func (q *Queue) IsEmpty() bool {
 对象 != nil
 对象.属性 != null
  */
-//type myTreeNode struct {
-//	node *BoltTree
-//}
-//
-//func main() {
-//	var boltTree BoltTree
-//	boltTree = BoltTree{Value:2}
-//	myTree := myTreeNode{&boltTree}
-//	fmt.Println(myTree)
-//}
+//main 包中的不同的文件的代码不能相互调用，其他包可以。所以其实Link.go没有被一起编译执行
+type myTreeNode struct {
+	node *tree.Node
+}
+
+func main() {
+	var boltTree tree.Node
+	boltTree = tree.Node{Value:2}
+	myTree := myTreeNode{&boltTree}
+	fmt.Println(myTree.node.Value)
+}
