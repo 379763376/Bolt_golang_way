@@ -39,10 +39,23 @@ func main() {
 	//4.递归
 	b := add100(100)
 	fmt.Println(b)
+
+	//5.函数式编程 从0加到10
+	af:= adder()
+	for i :=0 ;i<10;i++{
+		fmt.Printf("%d",af(i))
+	}
 }
 func add100(num int)  int{
 	if num == 1{
 		return 1
 	}
 	return num+add100(num-1)
+}
+func adder() func(int) int {
+	sum := 0
+	return func(v int) int {
+		sum += v
+		return sum
+	}
 }
