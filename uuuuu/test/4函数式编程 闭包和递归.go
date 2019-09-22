@@ -1,4 +1,4 @@
-package main
+ package main
 
 import "fmt"
 
@@ -29,7 +29,7 @@ func main() {
 	fmt.Println(func(){
 		sum++
 	})
-	//3.3
+	//3.3 把一个匿名函数赋值给另一个
 	type anonymityFuncType func() int
 	var anonymityFunc anonymityFuncType
 	anonymityFunc = f
@@ -43,7 +43,15 @@ func main() {
 	//5.函数式编程 从0加到10
 	af:= adder()
 	for i :=0 ;i<10;i++{
-		fmt.Printf("%d",af(i))
+		fmt.Printf("$%d,",af(i))
+	}
+	fmt.Println()
+	//6.正统 函数式编程  只有常量和函数 不能有if和循环==》所以状态放到新的函数
+	//函数 返回当前值和下一轮要执行的函数
+	al := adder2(0)
+	for i:=0;i<10 ;i++  {
+		sum,al = al(i)
+		fmt.Printf("%d,",sum)
 	}
 }
 func add100(num int)  int{
@@ -59,3 +67,12 @@ func adder() func(int) int {
 		return sum
 	}
 }
+
+//函数类型
+type iAdder func(int)(int,iAdder)
+//函数
+ func adder2(base int) iAdder  {
+	 return func(v int) (int,iAdder) {
+		 return base+v,adder2(base+v)
+	 }
+ }

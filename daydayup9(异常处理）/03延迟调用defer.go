@@ -12,7 +12,7 @@ func main() {
 	//defer fmt.Println("老王")
 	//defer fmt.Println("你好")
 	//defer执行顺序
-	//一个函数有多个defer语句  它们以后进先出的顺序执行
+	//一个函数有多个defer语句  它们先进后出的顺序执行
 
 	//基石函数或者某个延迟调用发生错误 这些调用依旧会被执行
 	//defer fmt.Println("hello")

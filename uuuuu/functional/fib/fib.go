@@ -10,3 +10,10 @@ func Fibonacci() func() int {
 		return a
 	}
 }
+
+//func main() {
+//	f:=Fibonacci()
+//	fmt.Println(f())
+//	fmt.Println(f())
+//	fmt.Println(f())
+//}

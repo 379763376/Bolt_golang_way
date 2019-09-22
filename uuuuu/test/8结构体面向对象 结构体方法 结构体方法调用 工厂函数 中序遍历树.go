@@ -65,7 +65,7 @@ func (node *BoltTree) SetValue(value int) {
 func (node BoltTree) Print() {
 	fmt.Print(node.Value, " ")
 }
-
+//使用递归的思想
 func (node *BoltTree) Traverse() {
 	if node == nil {
 		return
