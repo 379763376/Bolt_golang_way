@@ -81,7 +81,6 @@ func main() {
 /*
 channel
 用作两个routine之间数据的交换
-
 var c chan int //定义一个channel 传入的数据是int，但是这个channel没给做出来是c == nil
 所以创建一个channel需要c:make(chan int)
 
