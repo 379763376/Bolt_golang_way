@@ -1,6 +1,19 @@
 package main
 
 import (
+	"sync"
+	"time"
+)
+
+//传统同步机制
+/*
+WaitGroup 用channel实现 但是里面还是同步机制
+Mutex 互斥量
+Cond
+*/
+//查看是否数据冲突：go run -race atimic.go
+//尽量使用channel通信
+import (
 	"fmt"
 	"sync"
 	"time"
@@ -8,7 +21,7 @@ import (
 
 type atomicInt struct {
 	value int
-	lock  sync.Mutex
+	lock  sync.Mutex//互斥量
 }
 
 func (a *atomicInt) increment() {
@@ -29,6 +42,7 @@ func (a *atomicInt) get() int {
 }
 
 func main() {
+	//atomic.AddInt32()  atomic 线程安全的 系统提供支持
 	var a atomicInt
 	a.increment()
 	go func() {

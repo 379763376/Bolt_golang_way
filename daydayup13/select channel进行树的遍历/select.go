@@ -144,9 +144,3 @@ func main4() {
 		}
 	}
 }
-//传统同步机制
-/*
-WaitGroup 用channel实现 但是里面还是同步机制
-Mutex 互斥量
-Cond
- */
