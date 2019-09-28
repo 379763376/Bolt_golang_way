@@ -42,7 +42,9 @@ func (a *atomicInt) get() int {
 }
 
 func main() {
-	//atomic.AddInt32()  atomic 线程安全的 系统提供支持
+	//atomic原子化的操作
+	//atomic.AddInt32()  系统提供的atomic 多个goroutine执行是安全的
+	//用Mutex互斥量实现atomic
 	var a atomicInt
 	a.increment()
 	go func() {
